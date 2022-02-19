@@ -11,8 +11,7 @@ def random_password():
     return master_list
 
 
-your_password = int(
-    input('How many characters would you like your password to be? '))
+your_password = int(input('How many characters would you like your password to be? '))
 
 
 output_password = ''
