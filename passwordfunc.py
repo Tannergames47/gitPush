@@ -78,21 +78,15 @@ numbers = string.digits
 characters = string.punctuation
 
 
-# build a list of all they characters they choose
 possible_password = []
-
-# holding tank for the final password
 password = ""
 
 if upper:
     possible_password.append(upper_letters * length)
-
 if lower:
     possible_password.append(lower_letters * length)
-
 if number:
     possible_password.append(numbers * length)
-
 if special_char:
     possible_password.append(characters * length)
 
