@@ -67,6 +67,8 @@ numbers = string.digits
 characters = string.punctuation
 
 
+print(characters, lower_letters, upper_letters, numbers)
+
 # build a list of all they characters they choose
 possible_password = []
 
