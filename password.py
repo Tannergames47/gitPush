@@ -94,7 +94,7 @@ else:
         save = random.choice(lets_see)
         password += save
     
-print(password)
+print(f"Your new password is \n {password}")
 
 
 
