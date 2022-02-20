@@ -2,8 +2,6 @@ import random
 import string
 
 
-
-
 print("\n\n")
 print("Welcom to the random password generator. \n")
 
@@ -93,6 +91,7 @@ else:
     for i in range(length):
         save = random.choice(lets_see)
         password += save
+        password.replace(" ","")
     
 print(f"Your new password is \n {password}")
 
